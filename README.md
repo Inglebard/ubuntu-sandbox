@@ -1,39 +1,39 @@
-#Docker image inglebard/ubuntu-sandbox
+# Docker image inglebard/ubuntu-sandbox
 Docker repository originaly created to chroot a web server remote access and use as sandbox.
 [Github](https://github.com/Inglebard/ubuntu-sandbox)
 [Dockerhub](https://hub.docker.com/r/inglebard/ubuntu-sandbox/)
 
 
 
-##Why use this image :
+## Why use this image :
 
 This image is fast and easy to use to make a chroot/sandbox. It was originaly created to chroot a web server remote access and use as sandbox.
 
-##Technical information :
+## Technical information :
 
 ### Users :
 root : full access
 user : standard user
 
-###Software :
+### Software :
 openssh (root login allowed)
 proftpd (root allowed, with ftp and sftp support)
 mysqldump
 
-###Port :
+### Port :
 21 : ftp
 22 : ssh
 23 : sftp throught proftpd
 49000-49010 are not exposed because it must be manually. (port must be the same between the container and the host)
 
-###Environnment variable :
+### Environnment variable :
 
 USER_PASSWD : user password (default: ubuntu)
 ROOT_PASSWD : root password (default: ubuntu)
 FTP_PORT_PASS_START : begin of ftp port (default: 49000) 
 FTP_PORT_PASS_END : end of ftp port (default: 49010)
 
-##How to use this image :
+## How to use this image :
 
 You can run this image like this:
 ```

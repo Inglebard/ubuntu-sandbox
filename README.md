@@ -18,18 +18,18 @@ This image is fast and easy to use to make a chroot/sandbox. It was originaly cr
 * root : full access
 * user : standard user
 
-### Software :
+### Softwares :
 * openssh (root login allowed)
 * proftpd (root allowed, with ftp and sftp support)
 * mysql client (mysqldump,...)
 
-### Port :
+### Ports :
 * 21 : ftp
 * 22 : ssh
 * 23 : sftp throught proftpd
 * 49000-49010 are not exposed because it must be manually. (port must be the same between the container and the host)
 
-### Environnment variable :
+### Environnment variables :
 
 * USER_PASSWD : user password (default: ubuntu)
 * ROOT_PASSWD : root password (default: ubuntu)

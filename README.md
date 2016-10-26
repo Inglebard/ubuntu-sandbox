@@ -5,6 +5,7 @@ Docker repository originaly created to chroot a web server remote access and use
 
 ## Tags Supported :
 * [`latest`](https://github.com/Inglebard/ubuntu-sandbox/blob/master/Dockerfile)
+* [`16.10`](https://github.com/Inglebard/ubuntu-sandbox/blob/16.10/Dockerfile)
 * [`16.04`](https://github.com/Inglebard/ubuntu-sandbox/blob/16.04/Dockerfile)
 
 

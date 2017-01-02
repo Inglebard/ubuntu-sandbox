@@ -41,7 +41,7 @@ This image is fast and easy to use to make a chroot/sandbox. It was originaly cr
 
 You can run this image like this:
 ```
-docker run -it inglebard/ubuntu-usandbox
+docker run -it inglebard/ubuntu-sandbox
 ```
 
 Or use all the option : 

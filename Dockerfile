@@ -17,6 +17,7 @@ RUN mkdir /var/run/sshd \
 && echo 'root:${ROOT_PASSWD}' | chpasswd \
 && echo 'user:${USER_PASSWD}' | chpasswd \
 && sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config \
+&& sed -i 's/root//' /etc/ftpusers \
 && printf "<Global>\n\
 	PassivePorts ${FTP_PORT_PASS_START} ${FTP_PORT_PASS_END}\n\
 </Global>\n" > /etc/proftpd/conf.d/global-dynamic.conf

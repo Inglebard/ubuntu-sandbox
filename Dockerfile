@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER David 'Inglebard' RICQ <davidricq87@orange.fr>
+LABEL maintainer "David 'Inglebard' RICQ <davidricq87@orange.fr>"
 
 ENV USER_PASSWD="ubuntu"
 ENV ROOT_PASSWD="ubuntu"

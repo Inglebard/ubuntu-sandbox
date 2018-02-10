@@ -3,13 +3,6 @@ Docker repository originaly created to chroot a web server remote access and use
 [Github](https://github.com/Inglebard/ubuntu-sandbox)
 [Dockerhub](https://hub.docker.com/r/inglebard/ubuntu-sandbox/)
 
-## Tags Supported :
-* [`latest`](https://github.com/Inglebard/ubuntu-sandbox/blob/master/Dockerfile)
-* [`17.04`](https://github.com/Inglebard/ubuntu-sandbox/blob/17.04/Dockerfile)
-* [`16.10`](https://github.com/Inglebard/ubuntu-sandbox/blob/16.10/Dockerfile)
-* [`16.04`](https://github.com/Inglebard/ubuntu-sandbox/blob/16.04/Dockerfile)
-
-
 ## Why use this image :
 
 This image is fast and easy to use to make a chroot/sandbox. It was originaly created to chroot a web server remote access and use as sandbox.

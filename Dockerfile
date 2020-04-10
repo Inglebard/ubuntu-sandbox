@@ -12,7 +12,6 @@ RUN apt-get update \
 
 
 RUN mkdir /var/run/sshd \
-&& mkdir /run/proftpd \
 && useradd --shell /bin/bash --create-home user \
 && echo 'root:${ROOT_PASSWD}' | chpasswd \
 && echo 'user:${USER_PASSWD}' | chpasswd \

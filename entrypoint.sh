@@ -14,6 +14,8 @@ fi
 unset USER_PASSWD
 unset ROOT_PASSWD
 
+rm -r /etc/ssh/ssh_host_rsa_key
+/usr/bin/ssh-keygen -A -m PEM
 /usr/sbin/sshd
 /usr/sbin/proftpd
 bash

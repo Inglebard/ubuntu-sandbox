@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:24.04
 
 LABEL maintainer "David 'Inglebard' RICQ <davidricq87@orange.fr>"
 
